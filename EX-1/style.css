@@ -1,0 +1,42 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    width: 500px;
+    height: auto;
+    margin: 30px 100px 0 100px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.btn {
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+}
+
+#btn1 {
+    background-color: green;
+}
+
+#btn2 {
+    background-color: orange;
+}
+
+#btn3 {
+    background-color: purple;
+}
+
+button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+/* TODO */
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+button {
+    font-size: 14px;
+    border: 3px solid hsl(300, 58%, 49%);
+    border-radius: 15px;
+    padding: 20px;
+    background-color: hsl(300, 100%, 54%);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(300, 99%, 28%);
+    border: 3px solid hsl(290, 100%, 42%);
+}
