@@ -1,0 +1,103 @@
+.card {
+    width: 350px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 40px auto;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 22px;
+    color: black;
+    margin: 10px 0 5px;
+}
+
+.position {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.info div {
+    text-align: center;
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 20px;
+    color: black;
+}
+
+.info p {
+    margin: 5px 0 0;
+    font-size: 12px;
+    color: grey;
+}
+
+.bio {
+    font-size: 14px;
+    color: grey;
+    margin: 20px 0;
+    padding: 0 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding : 10px;
+    margin: 15px 0;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+
+.icon:hover {
+    border: none;
+    transform: scale(1.2);
+    transition: transform 0.1s ease;
+}
+
+.view-profile-button {
+    background-color: #ffffff;
+    color: #ff66b2;
+    border: 2px solid #ff66b2;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 20px;
+}
+
+.view-profile-button:hover {
+    background-color: #ff66b2;
+    color: #ffffff;
+}
